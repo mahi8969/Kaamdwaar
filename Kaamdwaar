@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KaamDwaar - काम भी, रोजगार भी</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      color: #222;
+    }
+    header {
+      background: #123c69;
+      color: white;
+      padding: 22px 15px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 30px; }
+    header p { margin-bottom: 0; }
+    main {
+      max-width: 600px;
+      margin: 25px auto;
+      padding: 15px;
+    }
+    .card {
+      background: white;
+      padding: 22px;
+      margin-bottom: 18px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px #0001;
+    }
+    h2 { color: #123c69; }
+    button {
+      width: 100%;
+      padding: 14px;
+      margin-top: 10px;
+      border: 0;
+      border-radius: 8px;
+      background: #f39c12;
+      color: white;
+      font-size: 17px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KaamDwaar</h1>
+    <p>काम भी, रोजगार भी</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>काम ढूँढ रहे हैं?</h2>
+      <p>अपने आसपास काम और रोजगार के अवसर खोजें।</p>
+      <button onclick="alert('वर्कर रजिस्ट्रेशन जल्द शुरू होगा!')">
+        वर्कर के रूप में जुड़ें
+      </button>
+    </div>
+
+    <div class="card">
+      <h2>काम करवाना चाहते हैं?</h2>
+      <p>अपने काम के लिए स्थानीय कारीगर और वर्कर खोजें।</p>
+      <button onclick="alert('ग्राहक रजिस्ट्रेशन जल्द शुरू होगा!')">
+        ग्राहक के रूप में जुड़ें
+      </button>
+    </div>
+
+    <div class="card">
+      <h2>हमारी सेवाएँ</h2>
+      <p>प्लंबर • इलेक्ट्रीशियन • मिस्त्री • पेंटर • ड्राइवर • मजदूर • कुक</p>
+    </div>
+  </main>
+
+  <footer>© KaamDwaar | काम भी, रोजगार भी</footer>
+</body>
+</html>
